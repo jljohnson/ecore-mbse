@@ -43,7 +43,7 @@ For example, a Simulink block, as defined in the [simulink4MBSE.ecore](https://g
 
 Note: you can open the .ecore file with various viewers. In order to see the XML representation, you need to right-click on  the file, select Open With->XML Editor. In order to see the tree representation, you need to right-click on  the file, select Open With->Sample Ecore Model Editor
 
-Generalization relationships between resource properties are defined in the Ecore metamodel through annotations. For example, the inputPort property of a Simulink block has a generalization relationship with the port property of an MBSE block as shown below (line 27 of simulink4MBSE.ecore).
+Generalization relationships between resource properties are defined in the Ecore metamodel through annotations. For example, the inputPort property of a Simulink block has a generalization relationship with the port property of an MBSE block as shown below (line 27 of [simulink4MBSE.ecore](https://github.com/ld4mbse/oslc-adapter-simulink/blob/master/edu.gatech.mbsec.adapter.simulink.ecore/model/simulink4MBSE.ecore)).
 ```text
 <eStructuralFeatures xsi:type="ecore:EReference" name="inputPort" upperBound="-1"
         eType="#//InputPort" containment="true">
